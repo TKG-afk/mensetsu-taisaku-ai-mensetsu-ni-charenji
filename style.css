@@ -1131,23 +1131,6 @@ h3 {
   align-content: start;
 }
 
-.qr-placeholder {
-  display: grid;
-  place-items: center;
-  min-height: 150px;
-  margin-top: 24px;
-  padding: 18px;
-  border: 4px dashed #91a8c2;
-  border-radius: 8px;
-  background:
-    linear-gradient(90deg, rgba(11, 45, 92, 0.1) 50%, transparent 50%),
-    linear-gradient(0deg, rgba(11, 45, 92, 0.1) 50%, transparent 50%);
-  background-size: 24px 24px;
-  color: var(--blue-900);
-  font-size: 22px;
-  text-align: center;
-}
-
 .pattern-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
