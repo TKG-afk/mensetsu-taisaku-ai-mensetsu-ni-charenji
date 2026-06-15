@@ -432,58 +432,79 @@
       <button type="button" id="prevBtn" aria-label="前のスライド">‹</button>
       <div class="counter" id="counter">1 / 12</div>
       <button type="button" id="nextBtn" aria-label="次のスライド">›</button>
-      <button type="button" id="worksheetBtn" class="text-button">ワークシート</button>
+      <button type="button" id="worksheetBtn" class="text-button">報告スレッド</button>
       <button type="button" id="fullscreenBtn" class="text-button">全画面</button>
     </div>
     <div class="progress-track" aria-hidden="true"><div class="progress-bar" id="progressBar"></div></div>
   </main>
 
-  <section class="worksheet-screen hidden" id="worksheet" aria-label="AI面接チャレンジ ワークシート">
+  <section class="worksheet-screen hidden" id="worksheet" aria-label="Slack報告スレッド">
     <div class="worksheet-toolbar">
       <button type="button" id="backToSlides">スライドに戻る</button>
-      <button type="button" id="printWorksheet">ワークシートを印刷</button>
+      <button type="button" id="printWorksheet">報告テンプレートを印刷</button>
     </div>
     <article class="worksheet-page">
       <header>
-        <p>Interview Practice Worksheet</p>
-        <h2>AI面接チャレンジ ワークシート</h2>
-        <div class="name-row"><span>氏名</span><i></i><span>日付</span><i></i></div>
+        <p>Slack Report Thread</p>
+        <h2>【就職対策】面接練習 振り返りスレッド</h2>
       </header>
+      <pre class="slack-template">今日の面接練習について、以下のテンプレートに沿って振り返りを投稿してください。
 
-      <section class="worksheet-block">
-        <h3>1. 人間の評価</h3>
-        <label>自分が答えた質問：<span></span></label>
-        <label>相手から見た良かった点：<span></span></label>
-        <label>相手から見た改善点：<span></span></label>
-        <label>印象に残った言葉：<span></span></label>
-        <label>もっと聞きたいと思った点：<span></span></label>
-      </section>
+目的は、
+「人間から見た評価」と「AIから見た評価」を比べて、
+自分の面接で改善すべきポイントを見つけることです。
 
-      <section class="worksheet-block">
-        <h3>2. AIの評価</h3>
-        <label>AIに評価された良かった点：<span></span></label>
-        <label>AIに指摘された改善点：<span></span></label>
-        <label>話し方の癖：<span></span></label>
-        <label>構成の問題：<span></span></label>
-        <label>次に直すこと：<span></span></label>
-      </section>
+■ 氏名
+＿＿＿＿＿＿＿＿＿＿
 
-      <section class="worksheet-block">
-        <h3>3. 比較</h3>
-        <label>人間とAIで同じ評価だった点：<span></span></label>
-        <label>人間とAIで違った評価だった点：<span></span></label>
-        <label>なぜ違ったと思うか：<span></span></label>
-        <label>次回の面接で意識すること：<span></span></label>
-      </section>
+① 人間（クラスメイト）面接の総合達成率
+＿＿％
 
-      <section class="worksheet-block formula-notes">
-        <h3>4. 面接回答の改善メモ</h3>
-        <div><b>結論</b><span></span></div>
-        <div><b>理由</b><span></span></div>
-        <div><b>具体例</b><span></span></div>
-        <div><b>学んだこと</b><span></span></div>
-        <div><b>仕事でどう活かすか</b><span></span></div>
-      </section>
+人間（クラスメイト）面接の評価された良かった点：
+・
+・
+
+人間（クラスメイト）面接の改善点：
+・
+・
+
+② AI面接の総合達成率
+＿＿％
+
+AIから評価された良かった点：
+・
+・
+
+AIから指摘された改善点：
+・
+・
+
+③ 人間とAIの評価の比較
+
+人間とAIで同じ評価だった点：
+・
+・
+
+人間とAIで違った評価だった点：
+・
+・
+
+なぜ違ったと思うか：
+・
+・
+
+例：
+人間は「話し方・表情・印象」を見ていて、AIは「話の構成・具体性・言葉の使い方」を見ていたから。
+
+④ 次回の面接練習に生かせる点
+
+次回、意識すること：
+・
+・
+
+次回までに準備・改善すること：
+・
+・</pre>
     </article>
   </section>
 

@@ -1346,6 +1346,21 @@ body.worksheet-mode .presentation {
   font-size: 34px;
 }
 
+.slack-template {
+  margin: 0;
+  padding: 26px 30px;
+  border: 2px solid #d7e2ef;
+  border-radius: 8px;
+  background: #fbfdff;
+  color: var(--ink);
+  font-family: "Yu Gothic", "Yu Gothic UI", "Meiryo", "Noto Sans JP", system-ui, sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
 .name-row {
   display: grid;
   grid-template-columns: 42px 1fr 42px 1fr;
@@ -1469,6 +1484,14 @@ body.worksheet-mode .presentation {
 
   .worksheet-page h2 {
     font-size: 24pt;
+  }
+
+  .slack-template {
+    padding: 0;
+    border: 0;
+    background: #fff;
+    font-size: 10.5pt;
+    line-height: 1.45;
   }
 
   .worksheet-block h3 {
